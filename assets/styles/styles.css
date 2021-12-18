@@ -1,0 +1,36 @@
+/* font-family: 'PT Serif', serif; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+body{
+    font-family: 'PT Serif', serif;
+    padding: 0;
+
+  
+}
+
+/* Homepage background */
+#main-back-img{
+    background-image: url(../images/main-cover.jpg);
+    background-position: center;
+}
+/* Homepage navigation section */
+section{
+    height: 200px;
+    width: 600px;
+    background-color: rgba(154, 205, 50, 0.6);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    border: 2px solid black;
+}
+section h1{
+    text-align:center;
+    font-size: 150%;
+}
+
+#links{
+    display:inline;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
